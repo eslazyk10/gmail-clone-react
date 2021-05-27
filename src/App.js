@@ -9,6 +9,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 import Mail from './Mail';
 import EmailList from './EmailList';
+import SendMail from "./SendMail";
 
 import './css/App.css';
 
@@ -30,8 +31,8 @@ function App() {
               <EmailList />
             </Route>
           </Switch>
-          
       </div>
+      <SendMail />  
     </div>
     </Router>
   );
